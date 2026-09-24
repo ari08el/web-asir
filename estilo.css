@@ -1,0 +1,119 @@
+.img_perro{
+    display: flex; justify-content: center;
+    margin-top: 30px;
+}
+
+header{
+    display: flex; justify-content: space-between;
+    background-color: rgb(63, 114, 255);
+}
+
+footer{
+    margin-top: auto;
+}
+
+table{
+    margin: 0 auto; 
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 110px;
+}
+
+tr, td{
+     border: 3px solid black;
+    padding: 10px;
+}
+
+.tabla{
+    display: flex; 
+}
+
+.titulo{
+     color: black;
+     margin-left: 170px;
+}
+
+.dias{
+    background-color: darkorange;
+}
+
+.recreo{
+    background: rgb(142, 237, 253);
+}
+
+.tabla{
+    text-align: center;
+}
+
+.llmm{
+    background-color: rgb(250, 155, 155);
+}
+
+.ipe{
+    background-color: bisque;
+}
+
+.ing{
+    background-color: cadetblue;
+}
+
+.gdb{
+    background-color: blanchedalmond;
+}
+
+.redes{
+    background-color: aquamarine;
+}
+
+.hardware{
+    background-color: burlywood;
+}
+
+.iso{
+    background-color: coral;
+}
+
+.sostenibilidad{
+    background-color: darkgoldenrod;
+}
+
+.proyecto{
+    background-color: darkgray;
+}
+
+.digitalizacion{
+    background-color: darkkhaki;
+}
+
+footer{
+    display: flex;
+
+}
+
+.d-flex{
+    background-color: beige;
+    margin-top: 170px;
+}
+
+.nav-item_botones{
+    text-decoration: underline;
+}
+
+.col-md-4{
+    padding-left: 20px;
+} 
+
+.container{
+    display: flex;
+}
+
+fieldset{
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+.columna_2{
+    margin-left: 400px;
+}
+
+
