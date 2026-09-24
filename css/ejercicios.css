@@ -1,0 +1,8 @@
+.encabezado_h2{  
+    font-style: italic;
+    color: red;
+}
+
+.imagen_1{
+    display: flex; justify-content: center;
+}

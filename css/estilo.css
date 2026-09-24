@@ -1,3 +1,7 @@
+.contenido_index{
+    margin-left: 25px;
+}
+
 .img_perro{
     display: flex; justify-content: center;
     margin-top: 30px;
