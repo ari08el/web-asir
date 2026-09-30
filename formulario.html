@@ -22,28 +22,75 @@
     </header>
 
     <!--formulario-->
-    <div class="container">
+    <form>
+        <div class="container">
         <!--1a columna-->
         <tr>
             <fieldset class="columna_1">
                 <legend>DATOS DE CONTACTO</legend>
                 <hr><br>
+                <input id="email" type="text" class="form-control" placeholder="correo electronico">
+                <br>
+                <input id="direccion" type="text" class="form-control" placeholder="direccion">
+                <br>
                 <input id="nombre" type="text" class="form-control" placeholder="nombre">
                 <br>
+                <input id="apellidos" type="text" class="form-control" placeholder="apellidos">
+                <br>
                 <input id="telefono" type="text" class="form-control" placeholder="Número de telefono" >
-
             </fieldset>
         </tr>
        <!--2a columna-->
         <tr>
             <fieldset class="columna_2">
-                <legend>INFORMACION</legend> 
-                <hr>
-                <label for="date">FECHA DE NACIMIENTO:</label>
+                <legend>DATOS PERSONALES</legend>
+                <hr><br>
+                <input id="sexo" type="text" class="form-control" placeholder="sexo">
+                <br>
+                <input id="dni" type="text" class="form-control" placeholder="DNI">
+                <br>
+                <input id="edad" type="text" class="form-control" placeholder="edad">
+                <br>
+                <label for="date">Fecha de nacimiento:</label>
                 <input type="date" class="form-control" placeholder="fecha de nacimiento" name="date" id="fecha">
+                <br>
+                <label for="COLOR">Color favorito:</label> 
+                <input type="color" class="form-control" placeholder="color favorito" name="color" id="color">
             </fieldset>
         </tr>
+        
     </div>
+    <div class="formulario_3">
+        <fieldset>
+            <legend>DATOS DE ESTUDIO</legend>
+            <hr><br>
+            <div class="ola">
+                <!--DESPLEABLES-->
+                <select id="provincia" name="provincia">
+                    <option value="">Selecciona una provincia</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="ciudad_real">Ciudad Real</option>
+                    <option value="toledo">Toledo</option>
+                    <option value="jaen">Jaén</option>
+                </select>
+                <select id="ciclo" name="ciclo">
+                    <option value="">Selecciona un ciclo</option>
+                    <option value="administracion_de_sistemas_informaticos_en_red">ADMINISTRACION DE SISTEMAS INFORMATICOS EN RED</option>
+                    <option value="desarrollo_de_aplicaciones_multiplataforma">DESARROLLO DE APLICACIONES MULTIPLATAFORMA</option>
+                    <option value="desarrollo_de_aplicaciones_web">DESARROLLO DE APLICACIONES WEB</option>
+                </select>
+            </div>
+             
+        </fieldset>
+    </div>
+    <div class="boton_enviar">
+            <button type="submit" class="btn btn-primary">ENVIAR</button>
+    </div> 
+    <br>
+    <div class="boton_borrar">
+        <button type="reset" class="btn btn-danger">BORRAR</button>
+    </div>
+    </form>
 
     <!--PIE DE PAGINA-->   
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -61,3 +108,4 @@
     </footer>
 </body>
 </html>
+

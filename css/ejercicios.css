@@ -1,8 +1,38 @@
-.encabezado_h2{  
-    font-style: italic;
-    color: red;
+.imagen_principal{
+    display: flex; justify-content: center;
+    margin-top: 30px;
 }
 
-.imagen_1{
+img{
+    width: 350px;
+    height: 250px;
+}
+
+.encabezado_h2{  
+    color: rgb(255, 0, 0);
+}
+
+.texto_principal{    
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.rectangulo{
+    background-color: rgb(206, 206, 207);
+    border: 2px solid rgb(31, 66, 222);
+    margin:5px;
+}
+
+.ejr_1_1{
+    border: 2px solid rgb(31, 66, 222);
+}
+
+.strong_amarillo{
+    background-color: rgb(255, 255, 0);
+
+}
+
+.ejr_1_2{
     display: flex; justify-content: center;
 }

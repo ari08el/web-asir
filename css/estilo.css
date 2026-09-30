@@ -20,12 +20,20 @@ table{
     margin: 0 auto; 
     text-align: center;
     border-collapse: collapse;
-    margin-bottom: 110px;
+    margin-bottom: 60px;
 }
 
 tr, td{
      border: 3px solid black;
     padding: 10px;
+}
+
+.titulo_principal{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(63, 114, 255);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .tabla{
@@ -108,16 +116,35 @@ footer{
 } 
 
 .container{
-    display: flex;
+    display: flex; justify-content: center;
 }
 
 fieldset{
     margin-top: 40px;
-    margin-bottom: 200px;
+    ;
 }
 
 .columna_2{
     margin-left: 400px;
 }
 
+.formulario_3{
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+}
 
+.ola{
+    display: flex;
+    gap: 20px;
+}
+
+.ejercicios{
+    display: flex; 
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
