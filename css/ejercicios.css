@@ -34,5 +34,10 @@ img{
 }
 
 .ejr_1_2{
+    background-image:url(../imagenes/flor1_2.png)
+}
+
+.texto_1_2{
     display: flex; justify-content: center;
+    margin-bottom: 200px;
 }
