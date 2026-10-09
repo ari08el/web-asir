@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio_1</title>
-    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/ejercicios.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 class="titulo"> Mi instituto </h1>
+        <h1 style="margin-left: 170px;" class="titulo"> Mi instituto </h1>
         <div class="botones">
             <a href="index.html" class="btn btn-primary" role="button" aria-disabled="true">INICIO</a>
             <a href="horario.html" class="btn btn-secondary" role="button"  aria-disabled="true">HORARIO</a>
@@ -18,7 +17,7 @@
         </div>
     </header>
     <br>
-    <div class="ejr_1_1">
+    <div class="ejr_1_1" id="inicio1">
         <h1>
             Esto es un encabezado h1
         </h1>
@@ -37,15 +36,97 @@
             Este es un hipervinculo a  <a href="https://www.google.com/">Google</a>
         </div>
     </div>
-    <br>
+    <br><br><br>
     <div class="ejr_1_2">
         <div class="texto_1_2">
             <h4 style="color: red;">Esto es un encabezado <del>h4</del></h4><h2 style="background-color: yellow;">h2</h2>
-            <br><br>
         </div>
-        
-        <button id="botonDescender">saber más</button>
+        <div class="rectangulo_amarillo"
+            <p><a href="#capitulo4"><strong style="color: rgb(255, 255, 255);"> Ir a capítulo 4:</strong></a></p>
+        </div>
+        <div class="texto22">
+            <em>esto es un texto <br> preformateado</em>
+        </div>
+        <br><br>
+        <div class="texto22">
+            <p>Este hipervinculo va a <strong>Google</strong></p>
+            <div class="rectangulo_amarillo">
+                <p><a href="https://www.google.com/" target="_blank"><strong style="color: rgb(255, 255, 255);"> Ir a google</strong></a></p>
+            </div>
+        </div>
+        <br><br><br><br>
+        <div class="rectangulo2" id="capitulo4">
+            <button style="margin-top: 20px; margin-left: 30px;" onclick="location.href='#inicio1'">hipervinculo en la misma página</button>
+            <br>
+            <p style="font-size: 20px; margin-left: 50px;"><strong> Esto es el Capítulo 4 </strong></p>
+        </div>
     </div>
-       
+    <br><br><br>
+    <div class="ejr_1_3">
+        <p><em>Tabla de prueba 1</em></p>
+        <div class="tabla_prueba_1">
+            <table style="border-collapse: separate; border-spacing: 10px;">
+                    <br>
+                    <tr>
+                        <th>columna 1</th>
+                        <th>columna 2</th>
+                        <th>columna 3</th>
+                        <th>columna 4</th>
+                    </tr>
+            </table>
+            <table class="borde_azul">
+                <tbody>
+                    <tr>
+                        <td>col1</td>
+                        <td colspan="2">col2</td>
+                        <td rowspan="2">col3</td>
+                    </tr>
+                    <tr>
+                        <td>colum1</td>
+                        <td>column2</td>
+                        <td>colum4</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </div>
+        <br><br>
+        
+        <div>
+            <p><em>Tabla de prueba 2</em></p>
+            <table class="tabla_prueba_2">
+                <tr>
+                    <th class="gris">columna 1</th>
+                    <th class="gris">columna 2</th>
+                    <th class="gris">columna 3</th>
+                    <th class="gris">columna 4</th>
+                </tr>
+                <tr>
+                    <td class="verde">col1</td>
+                    <td class="verde" colspan="2" >col2</td>
+                    <td class="verde">col3</td>
+                </tr>
+                <tr>
+                    <td class="gris" >colum1</td>
+                    <td class="gris" rowspan="2" >colum2</td>
+                    <td class="gris">colum3</td>
+                    <td class="gris">colum4</td>
+                </tr>
+                <tr>
+                    <td class="verde">column1</td>
+                    <td class="verde">column3</td>
+                    <td class="verde">column4</td>
+                </tr>
+                <tr>
+                    <td class="gris">colu1</td>
+                    <td class="gris">colu2</td>
+                    <td class="gris">colu3</td>
+                    <td class="gris">colu4</td>
+                </tr>
+            </table>
+
+        </div>
+    <br><br><br>
+    </div>
 </body>
 </html>
