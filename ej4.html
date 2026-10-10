@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJ4</title>
-    <link rel="stylesheet" href="css/ejercicios.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ejercicio4.css">
 </head>
 <body>
     <!--ENCABEZADO-->
@@ -17,6 +16,70 @@
             <a href="formulario.html" class="btn btn-secondary" role="button"  aria-disabled="true">FORMULARIO</a>
         </div>
     </header>
-    
+
+    <div class="ej4_1">
+        <br>
+        <h3>1. Página principal</h3>
+        <br><br>
+        <div class="nombres">
+            <h2> <strong>Servicio centralizado de cambio de nombre</strong></h2>
+            <br>
+            <p><em>"Cambiar los nombres sin cambiar las cosas es lo primero con lo que se engaña al 
+                pueblo <br>en todas las revoluciones" </em><strong>Jacinto Benavente</strong>
+            </p>
+            <hr><br>
+            <div class="nombre_gigante">
+                <h1 style="font-size: 200px;"><strong>JUAN</strong></h1>
+            </div>
+            <br><hr>
+            <p>Consulta 
+                <a href="https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177009&menu=ultiDatos&idp=1254735572981">aquí</a> 
+                los nombres más comunes de España.
+            </p>
+        </div>
+        <div class="ej4_2">
+            <br><br><br><br><br>
+            <h3>2. Página 2</h3> <br><br>
+            <div class="video1">
+                <!--VIDEO (NO ME DEJA PONER EL DE YOUTUBE DIRECTAMENTE DA ERROR)-->
+                <h1><strong>Juan de la Cierva</strong></h1>
+                <video controls>
+                    <source src="videos/JUAN DE LA CIERVA Y EL AUTOGIRO 1923.mp4" type="video/mp4">
+                </video>
+            </div>
+ 
+        </div>
+        <div class="ej4_3">
+            <br><br><br><br><br>
+            <h3 style="font-family: 'Times New Roman', Times, serif;">3. Página 3</h3> <br><br>
+            <!--form crea recuadro exterior**-->
+            <form class="borde">
+                <fieldset>
+                    <legend>Datos del usuario</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <br><br>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellido">
+                    <br><br>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                    <br><br>
+                    <label for="passwd">Contraseña:</label>
+                    <input type="password" id="passwd" name="passwd">
+                </fieldset>
+                <br><br>
+                <div class="botones_formulario">
+                     <button type="submit" class="btn btn-primary">ENVIAR</button>
+                     <button type="reset" class="btn btn-danger">BORRAR</button>
+                </div> 
+            </form>
+            
+        </div>
+        
+    </div>
 </body>
 </html>l
