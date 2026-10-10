@@ -9,21 +9,23 @@
 <body>
     <!--ENCABEZADO-->
     <header>
+        
         <h1 style="margin-left: 170px;" class="titulo"> Mi instituto </h1>
-        <div class="botones">
-            <a href="index.html" class="btn btn-primary" role="button" aria-disabled="true">INICIO</a>
-            <a href="horario.html" class="btn btn-secondary" role="button"  aria-disabled="true">HORARIO</a>
-            <a href="formulario.html" class="btn btn-secondary" role="button"  aria-disabled="true">FORMULARIO</a>
+        
+        <!--boton inicio-->
+        <div style="margin-right: 40px">
+            <button class="boton_inicio">
+                <a  style="color: aliceblue;" href="index.html">INICIO</a>
+            </button>
         </div>
     </header>
 
     <div class="ej4_1">
         <br>
         <h3>1. Página principal</h3>
-        <br><br>
+        <br>
         <div class="nombres">
             <h2> <strong>Servicio centralizado de cambio de nombre</strong></h2>
-            <br>
             <p><em>"Cambiar los nombres sin cambiar las cosas es lo primero con lo que se engaña al 
                 pueblo <br>en todas las revoluciones" </em><strong>Jacinto Benavente</strong>
             </p>
@@ -38,8 +40,7 @@
             </p>
         </div>
         <div class="ej4_2">
-            <br><br><br><br><br>
-            <h3>2. Página 2</h3> <br><br>
+            <h3>2. Página 2</h3> <br>
             <div class="video1">
                 <!--VIDEO (NO ME DEJA PONER EL DE YOUTUBE DIRECTAMENTE DA ERROR)-->
                 <h1><strong>Juan de la Cierva</strong></h1>
@@ -50,8 +51,7 @@
  
         </div>
         <div class="ej4_3">
-            <br><br><br><br><br>
-            <h3 style="font-family: 'Times New Roman', Times, serif;">3. Página 3</h3> <br><br>
+            <h3 style="font-family: 'Times New Roman', Times, serif;">3. Página 3</h3> <br>
             <!--form crea recuadro exterior**-->
             <form class="borde">
                 <fieldset>
@@ -71,7 +71,6 @@
                     <label for="passwd">Contraseña:</label>
                     <input type="password" id="passwd" name="passwd">
                 </fieldset>
-                <br><br>
                 <div class="botones_formulario">
                      <button type="submit" class="btn btn-primary">ENVIAR</button>
                      <button type="reset" class="btn btn-danger">BORRAR</button>
@@ -79,7 +78,67 @@
             </form>
             
         </div>
+        <div class="ej4_4">
+            <h3>4. Página 4</h3> 
+            <div class="contenido4_4">
+                <h1><strong>Bienvenido al formulario de cambio de nombre</strong></h1>
+                <p>¿Te gusta tu nombre? (elige solo una opción)</p>
+                
+                <!--botones de elegir-->
+                <div>
+                    <form>
+                        <input type="radio" id="si" name="respuesta_1">
+                        <label for="si">Si</label>
+                        <input type="radio" id="no" name="respuesta_1">
+                        <label for="no">No</label>
+                        <input type="radio" id="nunca" name="respuesta_1">
+                        <label for="nunca">Nunca lo he pensado</label>
+                    
+                        <br><br>
+                        <label for="nombres">Selecciona nombre que te quieres poner:</label>
+                        <select id="nombres" name="nombres">
+                            <option value="Manolo">Manolo</option>
+                            <option value="Juan">Juan</option>
+                            <option value="Luis">Luis</option>
+                            <option value="Vicente">Vicente</option>
+                            <option value="jose">José</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    
+                        <br><br>
+                        <label for="otros_n">En caso de querer otro nombre, escribelo aquí:</label>
+                        <input type="text" id="otros_n" placeholder="Nombre" name="otros_n">
+                    
+                        <br>
+                        <!--rango-->
+                        <p>Valora tu experiencia</p>
+                        <input type="range" id="experiencia" name="experiencia" min="0" max="10" step="1" list="marcas">
+                        <datalist id="marcas">
+                            <option value="0"></option>
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist> <br><br>
+                        <!--botones-->
+                        <button class="boton_enviar">
+                            <a style="color: black;" href="pagina5.html">Enviar</a>
+                        </button>
+                        <button type="reset" >Restablecer</button>
+                    </form>
+                </div>
+            </div>
+            <h2 style="text-align: center; color: rgb(49, 0, 95);">
+                <strong>*Pulsa "ENVIAR" para terminar*</strong>
+            </h2>
+        </div>
         
     </div>
 </body>
-</html>l
+</html>

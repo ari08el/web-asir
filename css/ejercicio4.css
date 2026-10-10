@@ -1,6 +1,18 @@
 header{
     display: flex; justify-content: space-between;
-    background-color: rgb(63, 114, 255);
+    background-color: rgb(45, 190, 178);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boton_inicio{
+   background-color: #0061fd;           
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;           
+    font-weight: normal;      
+    border: none;              
+    border-radius: 5px;        
+    cursor: pointer;
+    margin-top: 19px;
 }
 
 .ej4_1{
@@ -19,6 +31,7 @@ header{
 }
 
 .ej4_2{
+    margin-top: 13em;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -35,7 +48,7 @@ video{
 .preguntas1{
 }
 
-form {
+.borde {
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   max-width: 500px;
@@ -43,4 +56,21 @@ form {
   border: 2px black;
 }
 
+.ej4_3{
+    margin-top: 13em;
+}
 
+.ej4_4{
+    margin-top: 13em;
+}
+
+.contenido4_4{
+    margin-left: 2em;
+}
+
+.finalizado{
+    border: 5px solid black;
+    margin: 60px;
+    font-size: 50px;
+    width: fit-content;
+}
